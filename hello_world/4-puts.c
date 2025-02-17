@@ -1,11 +1,8 @@
 #include <stdio.h>
- /**
- * This is the preferred style for multi-line
- * comments in C source code.
- * Please use it consistently.
+/**
+ * main - Entry point of the program
  *
- * Description:  A column of asterisks on the left side,
- * with beginning and ending almost-blank lines.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
