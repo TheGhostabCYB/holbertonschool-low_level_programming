@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
- *
+ * main - Entry point
+ * Description: This program displays the alphabet using putchar
  * Return: Always 0 (Success)
  */
-int main(void)h
+int main(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+char char_var = 'a';
+for (; char_var <= 'z'; char_var++)
 {
-putchar(alphabet);
+putchar(char_var);
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
