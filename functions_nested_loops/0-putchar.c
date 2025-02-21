@@ -1,18 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point of the program
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-return (0);
+write(1, "_putchar\n", 9);
+return 0;
 }
