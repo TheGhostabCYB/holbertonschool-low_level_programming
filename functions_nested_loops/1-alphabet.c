@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_alphabet - Entry point
  * Return: no return
@@ -12,3 +11,4 @@ for (ch = 'a'; ch <= 'z'; ch++)
 _putchar(ch);
 }
 _putchar('\n');
+}
