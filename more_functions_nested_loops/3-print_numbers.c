@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * print_numbers - prints the numbers from 0 to 9.
+ * print_number - prints a single number.
+ * @n: the number to print.
  */
-void print_numbers(void)
+void print_number(int n)
 {
-for (int i = 0; i <= 9; i++)
-{
-putchar(i + '0');
-}
-putchar('\n');
+if (n > 9)
+return;  /* Base case to stop recursion */
+putchar(n + '0');  /* Convert integer to character */
+print_number(n + 1);  /* Recursive call for the next number */
 }
