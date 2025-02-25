@@ -1,0 +1,12 @@
+#include <main.h>
+/**
+ * print_number - prints a single number.
+ * @n: the number to print.
+ */
+void print_number(int n)
+{
+if (n > 9)
+return();
+putchar(n + '0');
+print_number(n + 1);
+}
