@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * print_number - prints a single number.
- * @n: the number to print.
+ * print_numbers - prints a single number.
+ * @n: the numbers to print.
  */
-void print_number(int n)
+void print_numbers(int n)
 {
 if (n > 9)
 return;  /* Base case to stop recursion */
